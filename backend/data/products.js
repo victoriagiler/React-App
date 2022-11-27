@@ -2,7 +2,7 @@ const products = [
   {
   _id: 1,
   name: 'Airpods',
-  image: 'images/airpods.jpg',
+  image: '/images/airpods.jpg',
   description: 'Cute as shit',
   brand: 'Apple',
   category: 'Electronics',
@@ -14,7 +14,7 @@ const products = [
 {
   _id: 2,
   name: 'Alexa',
-  image: 'images/alexa.jpg',
+  image: '/images/alexa.jpg',
   description: 'Cute as shit',
   brand: 'Apple',
   category: 'Electronics',
@@ -27,7 +27,7 @@ const products = [
 {
   _id: 3,
   name: 'Camera',
-  image: 'images/camera.jpg',
+  image: '/images/camera.jpg',
   description: 'Cute as shit',
   brand: 'Apple',
   category: 'Electronics',
@@ -40,7 +40,7 @@ const products = [
 {
   _id: 4,
   name: 'Camera',
-  image: 'images/camera.jpg',
+  image: '/images/camera.jpg',
   description: 'Cute as shit',
   brand: 'Apple',
   category: 'Electronics',
@@ -52,7 +52,7 @@ const products = [
 {
   _id: 5,
   name: 'Camera',
-  image: 'images/camera.jpg',
+  image: '/images/camera.jpg',
   description: 'Cute as shit',
   brand: 'Apple',
   category: 'Electronics',
@@ -64,7 +64,7 @@ const products = [
 {
   _id: 6,
   name: 'Camera',
-  image: 'images/camera.jpg',
+  image: '/images/camera.jpg',
   description: 'Cute as shit',
   brand: 'Apple',
   category: 'Electronics',
@@ -76,4 +76,4 @@ const products = [
 ]
 
 
-export default products
+module.exports = products

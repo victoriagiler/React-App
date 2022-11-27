@@ -6,8 +6,8 @@ import products from '../products'
 
 const ProductScreen = () => {
   
-  const params = useParams();
-  const product = products.find((p) => p._id === params.id)
+  const {id} = useParams();
+  const product = products.find((p) => String(p._id) === id);
 
   return (
     <>

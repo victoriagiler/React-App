@@ -1,6 +1,24 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.2",
+    "express": "^4.18.2",
     "react-bootstrap": "^2.6.0"
-  }
+  },
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "MERN Shopping Cart App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriagiler/React-App.git"
+  },
+  "author": "Victoria Giler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriagiler/React-App/issues"
+  },
+  "homepage": "https://github.com/victoriagiler/React-App#readme"
 }
